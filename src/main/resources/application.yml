@@ -1,0 +1,21 @@
+#spring:
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    username: postgres
+#    password: asdf1234
+#    url: jdbc:postgresql://127.0.0.1:5432/postgres
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    #防止启动时打印出“java.sql.SQLFeatureNotSupportedException: 这个 org.postgresql.jdbc.PgConnection.createClob() 方法尚未被实作。”的异常
+#    properties:
+#      hibernate:
+#        temp:
+#          use_jdbc_metadata_defaults: false
+
+#https://blog.csdn.net/nsxqf/article/details/85859830?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164558365616780357265828%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164558365616780357265828&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-85859830.first_rank_v2_pc_rank_v29&utm_term=springboot%E9%85%8D%E7%BD%AEpg%E6%95%B0%E6%8D%AE%E5%BA%93&spm=1018.2226.3001.4187
+#https://wenku.baidu.com/view/1eefec0be1bd960590c69ec3d5bbfd0a7956d57b.html
+#https://blog.csdn.net/bzy_4331/article/details/83259441
+mybatis-plus:
+  mapper-locations: classpath:/Mapper/*Mapper.xml
