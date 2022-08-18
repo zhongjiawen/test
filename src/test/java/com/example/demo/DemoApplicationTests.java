@@ -15,6 +15,7 @@ import org.mapstruct.factory.Mappers;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 //分支修改第一次
 //分支修改第=次
@@ -85,6 +86,6 @@ class DemoApplicationTests {
 		assertEquals(orderQueryParam.getSourceType(), order.getSourceType());
 		assertEquals(orderQueryParam.getStatus(), order.getStatus());
 
-	}
+
 
 }
